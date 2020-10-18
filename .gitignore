@@ -1,0 +1,7 @@
+*/__pycache__/*
+*.log
+results/*
+tmp/*
+*.txt
+bin/chromedriver*
+bin/geckodriver*
