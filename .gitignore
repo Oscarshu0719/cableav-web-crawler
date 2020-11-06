@@ -3,5 +3,6 @@
 results/*
 tmp/*
 *.txt
+*.html
 bin/chromedriver*
 bin/geckodriver*

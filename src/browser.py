@@ -18,6 +18,10 @@ root_path = os.getcwd()
 download_path = os.path.join(root_path, TMP_DOWNLOAD_PATH)
 
 class Browser:
+    """
+        Only support FireFox driver.
+    """
+
     def __init__(self, has_screen):
         driver_path = os.path.join(root_path, "bin", "geckodriver")
 

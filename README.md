@@ -11,7 +11,10 @@ Download videos of posts on [CableAV](https://cableav.tv/).
 -   Download [geckodriver](https://github.com/mozilla/geckodriver/releases) first. Unzip it and put `chromedriver.exe` in folder `/bin`. 
 
 ```
-python main.py *url*
+python main.py *urls_file*
+    
+Args:
+    *urls_file*: URLs input path (a file including one URL per line).
 ```
 
 ## Requirements
